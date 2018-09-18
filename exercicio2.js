@@ -20,6 +20,6 @@ function rolarImagens(inc) {
   imgEl.src = servidorDasImagens + todasAsImagens[indexAtual % todasAsImagens.length];
 }
 
-document.querySelector('#anterior').addEventListener('click', () => {rolarImagens(-1);});
+document.querySelector('#anterior').addEventListener('click', () => rolarImagens(-1));
 
-document.querySelector('#proximo').addEventListener('click', () => {rolarImagens(1);});
+document.querySelector('#proximo').addEventListener('click', () => rolarImagens(1));
